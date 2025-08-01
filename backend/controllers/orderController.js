@@ -3,7 +3,7 @@ import userModel from "../models/userModel.js";
 import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-const frontend_url = "http://localhost:5173";
+const frontend_url = "https://multivendor-food-app-frontend.onrender.com/";
 
 const placeOrder = async (req, res) => {
   try {
