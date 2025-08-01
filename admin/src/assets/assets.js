@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://localhost:4002'
+export const url = 'https://multivendor-food-app-backend.onrender.com'
