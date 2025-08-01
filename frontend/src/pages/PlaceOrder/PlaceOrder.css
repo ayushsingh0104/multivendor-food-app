@@ -1,20 +1,23 @@
-.place-order{
+.place-order {
     display: flex;
     align-items: start;
     justify-content: space-between;
     gap: 50px;
     margin-top: 100px;
 }
-.place-order-left{
+
+.place-order-left {
     width: 100%;
     max-width: max(30%, 500px);
 }
-.place-order-left .title{
+
+.place-order-left .title {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 50px;
 }
-.place-order-left input{
+
+.place-order-left input {
     margin-bottom: 15px;
     width: 100%;
     padding: 10px;
@@ -22,83 +25,89 @@
     border-radius: 4px;
     outline-color: tomato;
 }
-.place-order-left .multi-fields{
+
+.place-order-left .multi-fields {
     display: flex;
     gap: 10px;
 }
-.place-order-right{
+
+.place-order-right {
     width: 100%;
     max-width: max(40%, 500px);
 }
-.place-order .cart-total button{
+
+.place-order .cart-total button {
     margin-top: 30px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: tomato;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
 }
 
-:root .emaill {
-    background-color: black;
+/* PAYMENT OPTIONS SECTION */
+.payment-options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-:root .emaill{
+
+.payment-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.payment-button.stripe {
+    background-color: #635bff;
     color: white;
 }
 
-:root .streett {
-    background-color: black;
-}
-:root .streett{
+.payment-button.cod {
+    background-color: #00b894;
     color: white;
 }
 
-:root .phonee {
-    background-color: black;
-}
-:root .phonee{
-    color: white;
+.payment-button:hover {
+    opacity: 0.9;
 }
 
-
-.lightcolors .emaill {
-    background-color: white;
-}
-.lightcolors .emaill{
-    color: black;
-}
-
-.lightcolors .streett {
-    background-color: white;
-}
-.lightcolors .streett{
-    color: black;
-}
-
-.lightcolors .phonee {
-    background-color: white;
-}
-.lightcolors .phonee{
-    color: black;
-}
-
-
+/* DARK THEME STYLING */
+:root .emaill,
+:root .streett,
+:root .phonee,
 :root .multi-fields input {
     background-color: black;
-    color: white; 
+    color: white;
 }
 
 :root .multi-fields input::placeholder {
     color: white;
 }
 
+:root .title {
+    color: white;
+}
 
+/* LIGHT THEME STYLING */
+.lightcolors .emaill,
+.lightcolors .streett,
+.lightcolors .phonee,
 .lightcolors .multi-fields input {
     background-color: white;
     color: black;
 }
+
 .lightcolors .multi-fields input::placeholder {
     color: black;
-}
-
-
-:root .title {
-    color: white;
 }
 
 .lightcolors .title {
