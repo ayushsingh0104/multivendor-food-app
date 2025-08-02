@@ -17,6 +17,9 @@
 ![Picture](https://raw.githubusercontent.com/fr0st-iwnl/assets/main/thumbnails/tomato.png) -->
 
 
+
+- [ ] LIVE RENDER LINK FOR LIVE DEPLOYMENT OF PROJECT - https://multivendor-food-app-frontend.onrender.com/
+
 # Getting Started
 
 - First of all, you will need to create a database with Atlas MongoDB.
@@ -58,4 +61,6 @@ npm start server
 ```
 
 - [ ] Remember to include your Database in db.js and your Stripe Secret Key in .env
+
+- [ ] LIVE RENDER LINK FOR LIVE DEPLOYMENT OF PROJECT - https://multivendor-food-app-frontend.onrender.com/
 
