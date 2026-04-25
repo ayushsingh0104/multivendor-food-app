@@ -19,6 +19,12 @@
 
 # Getting Started
 
+-## 🚀 Live Demo
+
+Frontend: https://multivendor-food-app-frontend.onrender.com  
+Backend: https://multivendor-food-app-backend.onrender.com
+
+
 - First of all, you will need to create a database with Atlas MongoDB.
 - Also have a Stripe account so you can get your SECRET STRIPE KEY.
 
